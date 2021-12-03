@@ -11,6 +11,7 @@ body {
 
 #main {
   height: 100vh;
+  /* z-index: 5; */
   margin: 0 10rem;
   display: flex;
   flex-direction: column;
@@ -30,6 +31,7 @@ body {
 }
 
 #main a {
+  z-index: 1;
   text-decoration: none;
   color: #000;
   background-color: #f18701;
